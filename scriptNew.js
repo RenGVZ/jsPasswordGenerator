@@ -54,7 +54,6 @@ const generatePassword = (upper, lower, number, symbol, length) => {
   const typesArray = [{upper}, {lower}, {number}, {symbol}]
   // 4. filter typesArray and get the value (Object.values ) of each item
   .filter(type => {
-    // console.log(Object.values(type))
     return Object.values(type)[0]
   });
   // console.log(typesArray)
